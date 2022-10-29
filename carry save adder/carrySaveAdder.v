@@ -15,5 +15,5 @@ generate
   end
 endgenerate
 
-ripple_adder #(.N(N))ra({1'b0,s1[N-1:1]},c1[N-1:0],1'b0,{cout,S[N-1:1]},dummy);
+ripple_adder #(.WIDTH(N))ra({1'b0,s1[N-1:1]},c1[N-1:0],{dummy,cout,S[N-1:1]});
 endmodule
