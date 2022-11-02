@@ -1,7 +1,7 @@
 `include "full_adder.v"
  
 module ripple_adder
-  #(parameter WIDTH=64)
+  #(parameter WIDTH=32)
   (
    input [WIDTH-1:0] i_add1,
    input [WIDTH-1:0] i_add2,
