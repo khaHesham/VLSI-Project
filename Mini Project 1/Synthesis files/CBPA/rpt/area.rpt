@@ -1,0 +1,42 @@
+Report Instance Areas: 
+-----+------------------------+-------------------------+-----+---------
+     |Instance                |Module                   |Cells|Cell Area
+-----+------------------------+-------------------------+-----+---------
+1    |top                     |                         |  179|      213
+2    |  initialBlock          |Carry_bypass_4bits__0_66 |   44|       52
+3    |    FA0                 |FA__0_65                 |    5|        6
+4    |    genblk1_1_f         |FA__0_61                 |    5|        6
+5    |    genblk1_2_f         |FA__0_57                 |    5|        6
+6    |    genblk1_3_f         |FA__0_53                 |    5|        6
+7    |    genblk1_4_f         |FA__0_49                 |    5|        6
+8    |    genblk1_5_f         |FA__0_45                 |    5|        6
+9    |    genblk1_6_f         |FA__0_41                 |    5|        6
+10   |    genblk1_7_f         |FA__0_37                 |    5|        6
+11   |  finalBlock            |Carry_bypass_4bits__0_101|   44|       52
+12   |    FA0                 |FA__0_100                |    5|        6
+13   |    genblk1_1_f         |FA__0_96                 |    5|        6
+14   |    genblk1_2_f         |FA__0_92                 |    5|        6
+15   |    genblk1_3_f         |FA__0_88                 |    5|        6
+16   |    genblk1_4_f         |FA__0_84                 |    5|        6
+17   |    genblk1_5_f         |FA__0_80                 |    5|        6
+18   |    genblk1_6_f         |FA__0_76                 |    5|        6
+19   |    genblk1_7_f         |FA__0_72                 |    5|        6
+20   |  genblk1_2_middleBlocks|Carry_bypass_4bits__0_136|   44|       52
+21   |    FA0                 |FA__0_135                |    5|        6
+22   |    genblk1_1_f         |FA__0_131                |    5|        6
+23   |    genblk1_2_f         |FA__0_127                |    5|        6
+24   |    genblk1_3_f         |FA__0_123                |    5|        6
+25   |    genblk1_4_f         |FA__0_119                |    5|        6
+26   |    genblk1_5_f         |FA__0_115                |    5|        6
+27   |    genblk1_6_f         |FA__0_111                |    5|        6
+28   |    genblk1_7_f         |FA__0_107                |    5|        6
+29   |  genblk1_3_middleBlocks|Carry_bypass_4bits       |   44|       52
+30   |    FA0                 |FA__0_7                  |    5|        6
+31   |    genblk1_1_f         |FA__0_11                 |    5|        6
+32   |    genblk1_2_f         |FA__0_15                 |    5|        6
+33   |    genblk1_3_f         |FA__0_19                 |    5|        6
+34   |    genblk1_4_f         |FA__0_23                 |    5|        6
+35   |    genblk1_5_f         |FA__0_27                 |    5|        6
+36   |    genblk1_6_f         |FA__0_31                 |    5|        6
+37   |    genblk1_7_f         |FA                       |    5|        6
+-----+------------------------+-------------------------+-----+---------
