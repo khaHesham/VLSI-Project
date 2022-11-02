@@ -1,4 +1,4 @@
-module Carry_ByPass_4bits(A,B,sum,Cin,Cout);
+module Carry_Skip_4bits(A,B,sum,Cin,Cout);
 input [3:0] A;
 input [3:0] B;
 
@@ -18,7 +18,7 @@ for(i=1;i<4;i=i+1) begin
   end
 endgenerate
 
-assign Cout=(p[0]&p[1]&p[2]&p[3])? Cin : C[3];
+assign Cout= (p[0]&p[1]&p[2]&p[3]&Cin) | C[3] ;
 
 
 
