@@ -1,0 +1,166 @@
+Report for group default
+Report for group I2R
+Report for group I2O
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+Startpoint: A[1]
+    (Clocked by vsysclk R)
+Endpoint: OF
+    (Clocked by vsysclk R)
+Path Group: I2O
+Data required time: 19500.0
+    (Clock shift: 20000.0, minus Uncertainty: 0.0, plus Latency 0.0, minus Out delay: 500.0)
+Data arrival time: 2960.7
+Slack: 16539.3
+Logic depth: 73
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                     Arrival               Arc      Net               Net    Total   fan-                                   
+Path                     Module/Cell           Edge     Time    Delay    Delay    Delay     Slew     Load     Load    out     Location Power Domain      (V)
+                                                        (ps)     (ps)     (ps)     (ps)     (ps)     (ff)     (ff)    (#)      (um,um)                      
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+A[1]                     {set_input_delay}        r   1000.0   1000.0   1000.0                        2.3     10.0      2     0,   40                       
+initialBlock/genblk1_1_f/i_0_4/B->Z
+                         XOR2_X2                 rf   1031.6     31.4     31.4      0.0    100.0      0.6      6.4      2    40,   39  /PD_TOP        (1.10)
+initialBlock/i_0_0/A4->ZN
+                         AND4_X4                 ff   1069.6     38.0     38.0      0.0     13.7      0.3      4.4      1    40,   39  /PD_TOP        (1.10)
+initialBlock/i_0_1/B1->ZN
+                         AOI21_X4                fr   1122.5     52.9     52.9      0.0      6.6      0.3     25.7      1    40,   39  /PD_TOP        (1.10)
+initialBlock/i_0_2/A->ZN INV_X8                  rf   1134.0     11.5     11.5      0.0     46.8      1.2     14.3      4    40,   39  /PD_TOP        (1.10)
+genblk1_2_middleBlocks/FA0/i_0_1/B1->ZN
+                         OAI21_X4                fr   1158.8     24.8     24.8      0.0      4.6      0.3      4.2      1    40,   39  /PD_TOP        (1.10)
+genblk1_2_middleBlocks/FA0/i_0_0/A2->ZN
+                         NAND2_X4                rf   1179.3     20.5     20.5      0.0     18.3      0.8     12.1      3    40,   39  /PD_TOP        (1.10)
+genblk1_2_middleBlocks/genblk1_1_f/i_0_1/B1->ZN
+                         OAI21_X4                fr   1206.2     26.9     26.9      0.0     10.0      0.3      4.2      1    40,   39  /PD_TOP        (1.10)
+genblk1_2_middleBlocks/genblk1_1_f/i_0_0/A2->ZN
+                         NAND2_X4                rf   1226.7     20.5     20.5      0.0     18.3      0.8     12.1      3    40,   39  /PD_TOP        (1.10)
+genblk1_2_middleBlocks/genblk1_2_f/i_0_1/B1->ZN
+                         OAI21_X4                fr   1253.6     26.9     26.9      0.0     10.0      0.3      4.2      1    40,   39  /PD_TOP        (1.10)
+genblk1_2_middleBlocks/genblk1_2_f/i_0_0/A2->ZN
+                         NAND2_X4                rf   1274.1     20.5     20.5      0.0     18.3      0.8     12.1      3    40,   39  /PD_TOP        (1.10)
+genblk1_2_middleBlocks/genblk1_3_f/i_0_1/B1->ZN
+                         OAI21_X4                fr   1301.0     26.9     26.9      0.0     10.0      0.3      4.2      1    40,   39  /PD_TOP        (1.10)
+genblk1_2_middleBlocks/genblk1_3_f/i_0_0/A2->ZN
+                         NAND2_X4                rf   1316.7     15.7     15.7      0.0     18.3      0.3      4.2      1    40,   39  /PD_TOP        (1.10)
+genblk1_2_middleBlocks/i_0_1/A->ZN
+                         AOI21_X4                fr   1382.3     65.6     65.6      0.0      6.9      0.3     25.7      1    40,   39  /PD_TOP        (1.10)
+genblk1_2_middleBlocks/i_0_2/A->ZN
+                         INV_X8                  rf   1393.8     11.5     11.5      0.0     46.8      1.2     14.3      4    40,   39  /PD_TOP        (1.10)
+genblk1_3_middleBlocks/FA0/i_0_1/B1->ZN
+                         OAI21_X4                fr   1418.6     24.8     24.8      0.0      4.6      0.3      4.2      1    40,   39  /PD_TOP        (1.10)
+genblk1_3_middleBlocks/FA0/i_0_0/A2->ZN
+                         NAND2_X4                rf   1439.1     20.5     20.5      0.0     18.3      0.8     12.1      3    40,   39  /PD_TOP        (1.10)
+genblk1_3_middleBlocks/genblk1_1_f/i_0_1/B1->ZN
+                         OAI21_X4                fr   1466.0     26.9     26.9      0.0     10.0      0.3      4.2      1    40,   39  /PD_TOP        (1.10)
+genblk1_3_middleBlocks/genblk1_1_f/i_0_0/A2->ZN
+                         NAND2_X4                rf   1486.5     20.5     20.5      0.0     18.3      0.8     12.1      3    40,   39  /PD_TOP        (1.10)
+genblk1_3_middleBlocks/genblk1_2_f/i_0_1/B1->ZN
+                         OAI21_X4                fr   1513.4     26.9     26.9      0.0     10.0      0.3      4.2      1    40,   39  /PD_TOP        (1.10)
+genblk1_3_middleBlocks/genblk1_2_f/i_0_0/A2->ZN
+                         NAND2_X4                rf   1533.9     20.5     20.5      0.0     18.3      0.8     12.1      3    40,   39  /PD_TOP        (1.10)
+genblk1_3_middleBlocks/genblk1_3_f/i_0_1/B1->ZN
+                         OAI21_X4                fr   1560.8     26.9     26.9      0.0     10.0      0.3      4.2      1    40,   39  /PD_TOP        (1.10)
+genblk1_3_middleBlocks/genblk1_3_f/i_0_0/A2->ZN
+                         NAND2_X4                rf   1576.5     15.7     15.7      0.0     18.3      0.3      4.2      1    40,   39  /PD_TOP        (1.10)
+genblk1_3_middleBlocks/i_0_1/A->ZN
+                         AOI21_X4                fr   1642.1     65.6     65.6      0.0      6.9      0.3     25.7      1    40,   39  /PD_TOP        (1.10)
+genblk1_3_middleBlocks/i_0_2/A->ZN
+                         INV_X8                  rf   1653.6     11.5     11.5      0.0     46.8      1.2     14.3      4    40,   39  /PD_TOP        (1.10)
+genblk1_4_middleBlocks/FA0/i_0_1/B1->ZN
+                         OAI21_X4                fr   1678.4     24.8     24.8      0.0      4.6      0.3      4.2      1    40,   39  /PD_TOP        (1.10)
+genblk1_4_middleBlocks/FA0/i_0_0/A2->ZN
+                         NAND2_X4                rf   1698.9     20.5     20.5      0.0     18.3      0.8     12.1      3    40,   39  /PD_TOP        (1.10)
+genblk1_4_middleBlocks/genblk1_1_f/i_0_1/B1->ZN
+                         OAI21_X4                fr   1725.8     26.9     26.9      0.0     10.0      0.3      4.2      1    40,   39  /PD_TOP        (1.10)
+genblk1_4_middleBlocks/genblk1_1_f/i_0_0/A2->ZN
+                         NAND2_X4                rf   1746.3     20.5     20.5      0.0     18.3      0.8     12.1      3    40,   39  /PD_TOP        (1.10)
+genblk1_4_middleBlocks/genblk1_2_f/i_0_1/B1->ZN
+                         OAI21_X4                fr   1773.2     26.9     26.9      0.0     10.0      0.3      4.2      1    40,   39  /PD_TOP        (1.10)
+genblk1_4_middleBlocks/genblk1_2_f/i_0_0/A2->ZN
+                         NAND2_X4                rf   1793.7     20.5     20.5      0.0     18.3      0.8     12.1      3    40,   39  /PD_TOP        (1.10)
+genblk1_4_middleBlocks/genblk1_3_f/i_0_1/B1->ZN
+                         OAI21_X4                fr   1820.6     26.9     26.9      0.0     10.0      0.3      4.2      1    40,   39  /PD_TOP        (1.10)
+genblk1_4_middleBlocks/genblk1_3_f/i_0_0/A2->ZN
+                         NAND2_X4                rf   1836.3     15.7     15.7      0.0     18.3      0.3      4.2      1    40,   39  /PD_TOP        (1.10)
+genblk1_4_middleBlocks/i_0_1/A->ZN
+                         AOI21_X4                fr   1901.9     65.6     65.6      0.0      6.9      0.3     25.7      1    40,   39  /PD_TOP        (1.10)
+genblk1_4_middleBlocks/i_0_2/A->ZN
+                         INV_X8                  rf   1913.4     11.5     11.5      0.0     46.8      1.2     14.3      4    40,   39  /PD_TOP        (1.10)
+genblk1_5_middleBlocks/FA0/i_0_1/B1->ZN
+                         OAI21_X4                fr   1938.2     24.8     24.8      0.0      4.6      0.3      4.2      1    40,   39  /PD_TOP        (1.10)
+genblk1_5_middleBlocks/FA0/i_0_0/A2->ZN
+                         NAND2_X4                rf   1958.7     20.5     20.5      0.0     18.3      0.8     12.1      3    40,   39  /PD_TOP        (1.10)
+genblk1_5_middleBlocks/genblk1_1_f/i_0_1/B1->ZN
+                         OAI21_X4                fr   1985.6     26.9     26.9      0.0     10.0      0.3      4.2      1    40,   39  /PD_TOP        (1.10)
+genblk1_5_middleBlocks/genblk1_1_f/i_0_0/A2->ZN
+                         NAND2_X4                rf   2006.1     20.5     20.5      0.0     18.3      0.8     12.1      3    40,   39  /PD_TOP        (1.10)
+genblk1_5_middleBlocks/genblk1_2_f/i_0_1/B1->ZN
+                         OAI21_X4                fr   2033.0     26.9     26.9      0.0     10.0      0.3      4.2      1    40,   39  /PD_TOP        (1.10)
+genblk1_5_middleBlocks/genblk1_2_f/i_0_0/A2->ZN
+                         NAND2_X4                rf   2053.5     20.5     20.5      0.0     18.3      0.8     12.1      3    40,   39  /PD_TOP        (1.10)
+genblk1_5_middleBlocks/genblk1_3_f/i_0_1/B1->ZN
+                         OAI21_X4                fr   2080.4     26.9     26.9      0.0     10.0      0.3      4.2      1    40,   39  /PD_TOP        (1.10)
+genblk1_5_middleBlocks/genblk1_3_f/i_0_0/A2->ZN
+                         NAND2_X4                rf   2096.1     15.7     15.7      0.0     18.3      0.3      4.2      1    40,   39  /PD_TOP        (1.10)
+genblk1_5_middleBlocks/i_0_1/A->ZN
+                         AOI21_X4                fr   2161.7     65.6     65.6      0.0      6.9      0.3     25.7      1    40,   39  /PD_TOP        (1.10)
+genblk1_5_middleBlocks/i_0_2/A->ZN
+                         INV_X8                  rf   2173.2     11.5     11.5      0.0     46.8      1.2     14.3      4    40,   39  /PD_TOP        (1.10)
+genblk1_6_middleBlocks/FA0/i_0_1/B1->ZN
+                         OAI21_X4                fr   2198.0     24.8     24.8      0.0      4.6      0.3      4.2      1    40,   39  /PD_TOP        (1.10)
+genblk1_6_middleBlocks/FA0/i_0_0/A2->ZN
+                         NAND2_X4                rf   2218.5     20.5     20.5      0.0     18.3      0.8     12.1      3    40,   39  /PD_TOP        (1.10)
+genblk1_6_middleBlocks/genblk1_1_f/i_0_1/B1->ZN
+                         OAI21_X4                fr   2245.4     26.9     26.9      0.0     10.0      0.3      4.2      1    40,   39  /PD_TOP        (1.10)
+genblk1_6_middleBlocks/genblk1_1_f/i_0_0/A2->ZN
+                         NAND2_X4                rf   2265.9     20.5     20.5      0.0     18.3      0.8     12.1      3    40,   39  /PD_TOP        (1.10)
+genblk1_6_middleBlocks/genblk1_2_f/i_0_1/B1->ZN
+                         OAI21_X4                fr   2292.8     26.9     26.9      0.0     10.0      0.3      4.2      1    40,   39  /PD_TOP        (1.10)
+genblk1_6_middleBlocks/genblk1_2_f/i_0_0/A2->ZN
+                         NAND2_X4                rf   2313.3     20.5     20.5      0.0     18.3      0.8     12.1      3    40,   39  /PD_TOP        (1.10)
+genblk1_6_middleBlocks/genblk1_3_f/i_0_1/B1->ZN
+                         OAI21_X4                fr   2340.2     26.9     26.9      0.0     10.0      0.3      4.2      1    40,   39  /PD_TOP        (1.10)
+genblk1_6_middleBlocks/genblk1_3_f/i_0_0/A2->ZN
+                         NAND2_X4                rf   2355.9     15.7     15.7      0.0     18.3      0.3      4.2      1    40,   39  /PD_TOP        (1.10)
+genblk1_6_middleBlocks/i_0_1/A->ZN
+                         AOI21_X4                fr   2421.5     65.6     65.6      0.0      6.9      0.3     25.7      1    40,   39  /PD_TOP        (1.10)
+genblk1_6_middleBlocks/i_0_2/A->ZN
+                         INV_X8                  rf   2433.0     11.5     11.5      0.0     46.8      1.2     14.3      4    40,   39  /PD_TOP        (1.10)
+genblk1_7_middleBlocks/FA0/i_0_1/B1->ZN
+                         OAI21_X4                fr   2457.8     24.8     24.8      0.0      4.6      0.3      4.2      1    40,   39  /PD_TOP        (1.10)
+genblk1_7_middleBlocks/FA0/i_0_0/A2->ZN
+                         NAND2_X4                rf   2478.3     20.5     20.5      0.0     18.3      0.8     12.1      3    40,   39  /PD_TOP        (1.10)
+genblk1_7_middleBlocks/genblk1_1_f/i_0_1/B1->ZN
+                         OAI21_X4                fr   2505.2     26.9     26.9      0.0     10.0      0.3      4.2      1    40,   39  /PD_TOP        (1.10)
+genblk1_7_middleBlocks/genblk1_1_f/i_0_0/A2->ZN
+                         NAND2_X4                rf   2525.7     20.5     20.5      0.0     18.3      0.8     12.1      3    40,   39  /PD_TOP        (1.10)
+genblk1_7_middleBlocks/genblk1_2_f/i_0_1/B1->ZN
+                         OAI21_X4                fr   2552.6     26.9     26.9      0.0     10.0      0.3      4.2      1    40,   39  /PD_TOP        (1.10)
+genblk1_7_middleBlocks/genblk1_2_f/i_0_0/A2->ZN
+                         NAND2_X4                rf   2573.1     20.5     20.5      0.0     18.3      0.8     12.1      3    40,   39  /PD_TOP        (1.10)
+genblk1_7_middleBlocks/genblk1_3_f/i_0_1/B1->ZN
+                         OAI21_X4                fr   2600.0     26.9     26.9      0.0     10.0      0.3      4.2      1    40,   39  /PD_TOP        (1.10)
+genblk1_7_middleBlocks/genblk1_3_f/i_0_0/A2->ZN
+                         NAND2_X4                rf   2615.7     15.7     15.7      0.0     18.3      0.3      4.2      1    40,   39  /PD_TOP        (1.10)
+genblk1_7_middleBlocks/i_0_1/A->ZN
+                         AOI21_X4                fr   2681.3     65.6     65.6      0.0      6.9      0.3     25.7      1    40,   39  /PD_TOP        (1.10)
+genblk1_7_middleBlocks/i_0_2/A->ZN
+                         INV_X8                  rf   2692.8     11.5     11.5      0.0     46.8      1.2     14.3      4    40,   39  /PD_TOP        (1.10)
+finalBlock/FA0/i_0_1/B1->ZN
+                         OAI21_X4                fr   2717.6     24.8     24.8      0.0      4.6      0.3      4.2      1    40,   39  /PD_TOP        (1.10)
+finalBlock/FA0/i_0_0/A2->ZN
+                         NAND2_X4                rf   2738.1     20.5     20.5      0.0     18.3      0.8     12.1      3    40,   39  /PD_TOP        (1.10)
+finalBlock/genblk1_1_f/i_0_1/B1->ZN
+                         OAI21_X4                fr   2765.0     26.9     26.9      0.0     10.0      0.3      4.2      1    40,   39  /PD_TOP        (1.10)
+finalBlock/genblk1_1_f/i_0_0/A2->ZN
+                         NAND2_X4                rf   2785.5     20.5     20.5      0.0     18.3      0.8     12.1      3    40,   39  /PD_TOP        (1.10)
+finalBlock/genblk1_2_f/i_0_1/B1->ZN
+                         OAI21_X4                fr   2812.4     26.9     26.9      0.0     10.0      0.3      4.2      1    40,   39  /PD_TOP        (1.10)
+finalBlock/genblk1_2_f/i_0_0/A2->ZN
+                         NAND2_X4                rf   2832.9     20.5     20.5      0.0     18.3      0.8     12.1      3    40,   39  /PD_TOP        (1.10)
+finalBlock/genblk1_3_f/i_0_3/A->Z
+                         XOR2_X2                 fr   2894.3     61.4     61.4      0.0     10.0      0.3     15.8      2    40,   39  /PD_TOP        (1.10)
+i_0_0_1/A->ZN            XNOR2_X2                rr   2943.7     49.4     49.4      0.0     53.2      0.3      4.4      1    40,   39  /PD_TOP        (1.10)
+i_0_0_2/A2->ZN           NOR2_X4                 rf   2960.5     16.8     16.8      0.0     23.6      2.4     12.4      1    40,   39  /PD_TOP        (1.10)
+OF                                                f   2960.7      0.2               0.2      7.5                              0,   37                       
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+Report for group R2O

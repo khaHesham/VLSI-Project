@@ -1,0 +1,63 @@
+Report for group default
+Report for group I2R
+Report for group I2O
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+Startpoint: A[6]
+    (Clocked by vsysclk R)
+Endpoint: OF
+    (Clocked by vsysclk R)
+Path Group: I2O
+Data required time: 19500.0
+    (Clock shift: 20000.0, minus Uncertainty: 0.0, plus Latency 0.0, minus Out delay: 500.0)
+Data arrival time: 1777.2
+Slack: 17722.8
+Logic depth: 22
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                     Arrival               Arc      Net               Net    Total   fan-                                   
+Path                     Module/Cell           Edge     Time    Delay    Delay    Delay     Slew     Load     Load    out     Location Power Domain      (V)
+                                                        (ps)     (ps)     (ps)     (ps)     (ps)     (ff)     (ff)    (#)      (um,um)                      
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+A[6]                     {set_input_delay}        r   1000.0   1000.0   1000.0                        2.3      7.9      2    42,    0                       
+cla_16bit_inst_0/genblk1_1_cla_4bit_inst/genblk1_2_fa_inst/i_0_1/A->Z
+                         XOR2_X2*                rf   1071.6     71.4     71.4      0.0    100.0      0.9     31.8      3    40,   40  /PD_TOP        (1.10)
+cla_16bit_inst_0/genblk1_1_cla_4bit_inst/lcu/i_0_11/A->ZN
+                         INV_X8                  fr   1086.0     14.4     14.4      0.0     15.3      0.6      8.6      2    40,   40  /PD_TOP        (1.10)
+cla_16bit_inst_0/genblk1_1_cla_4bit_inst/lcu/i_0_2/B1->ZN
+                         OAI21_X4                rf   1098.7     12.7     12.7      0.0      6.4      0.3      4.5      1    40,   40  /PD_TOP        (1.10)
+cla_16bit_inst_0/genblk1_1_cla_4bit_inst/lcu/i_0_1/B2->ZN
+                         AOI21_X4                fr   1157.6     58.9     58.9      0.0      9.5      0.3     25.7      1    40,   40  /PD_TOP        (1.10)
+cla_16bit_inst_0/genblk1_1_cla_4bit_inst/lcu/i_0_0/A->ZN
+                         INV_X8                  rf   1166.1      8.5      8.5      0.0     46.8      0.6      8.4      2    40,   40  /PD_TOP        (1.10)
+cla_16bit_inst_0/lcu/i_0_3/A->ZN
+                         AOI21_X4                fr   1202.8     36.7     36.7      0.0      3.9      0.3      4.4      1    40,   40  /PD_TOP        (1.10)
+cla_16bit_inst_0/lcu/i_0_2/B2->ZN
+                         OAI21_X4                rf   1223.0     20.2     20.2      0.0     21.7      0.3      4.5      1    40,   40  /PD_TOP        (1.10)
+cla_16bit_inst_0/lcu/i_0_1/B2->ZN
+                         AOI21_X4                fr   1281.9     58.9     58.9      0.0      9.5      0.3     25.7      1    40,   40  /PD_TOP        (1.10)
+cla_16bit_inst_0/lcu/i_0_0/A->ZN
+                         INV_X8                  rf   1288.3      6.4      6.4      0.0     46.8      0.3      4.2      1    40,   40  /PD_TOP        (1.10)
+i_0_1_3/A->ZN            AOI21_X4                fr   1352.4     64.1     64.1      0.0      3.4      0.3     25.7      1    40,   40  /PD_TOP        (1.10)
+i_0_1_2/A->ZN            INV_X8                  rf   1364.8     12.4     12.4      0.0     46.8      1.2     16.7      4    40,   40  /PD_TOP        (1.10)
+cla_16bit_inst_1/lcu/i_0_9/B1->ZN
+                         AOI21_X4                fr   1417.1     52.3     52.3      0.0      4.9      0.3     25.7      1    40,   40  /PD_TOP        (1.10)
+cla_16bit_inst_1/lcu/i_0_8/A->ZN
+                         INV_X8                  rf   1427.6     10.5     10.5      0.0     46.8      0.9     12.4      3    40,   40  /PD_TOP        (1.10)
+cla_16bit_inst_1/lcu/i_0_7/B2->ZN
+                         AOI21_X4*               fr   1488.2     60.6     60.6      0.0      4.4      0.6     30.1      2    40,   40  /PD_TOP        (1.10)
+cla_16bit_inst_1/lcu/i_0_5/B2->ZN
+                         OAI21_X4                rf   1508.5     20.3     20.3      0.0     15.3      0.6      7.9      2    40,   40  /PD_TOP        (1.10)
+cla_16bit_inst_1/genblk1_3_cla_4bit_inst/lcu/i_0_9/B1->ZN
+                         AOI21_X4                fr   1563.0     54.5     54.5      0.0     10.9      0.3     25.7      1    40,   40  /PD_TOP        (1.10)
+cla_16bit_inst_1/genblk1_3_cla_4bit_inst/lcu/i_0_8/A->ZN
+                         INV_X8                  rf   1571.3      8.3      8.3      0.0     46.8      0.6      8.0      2    40,   40  /PD_TOP        (1.10)
+cla_16bit_inst_1/genblk1_3_cla_4bit_inst/lcu/i_0_7/B2->ZN
+                         AOI21_X4*               fr   1631.8     60.5     60.5      0.0      3.9      0.6     30.1      2    40,   40  /PD_TOP        (1.10)
+cla_16bit_inst_1/genblk1_3_cla_4bit_inst/lcu/i_0_5/B2->ZN
+                         OAI21_X4                rf   1649.7     17.9     17.9      0.0     15.3      0.3      3.6      1    40,   40  /PD_TOP        (1.10)
+cla_16bit_inst_1/genblk1_3_cla_4bit_inst/genblk1_3_fa_inst/i_0_2/A->Z
+                         XOR2_X2                 fr   1710.8     61.1     61.1      0.0      9.1      0.3     15.9      2    40,   40  /PD_TOP        (1.10)
+i_0_0_1/A->ZN            XNOR2_X2                rr   1760.2     49.4     49.4      0.0     53.3      0.3      4.4      1    40,   40  /PD_TOP        (1.10)
+i_0_0_2/A2->ZN           NOR2_X4                 rf   1777.0     16.8     16.8      0.0     23.6      2.4     12.4      1    40,   40  /PD_TOP        (1.10)
+OF                                                f   1777.2      0.2               0.2      7.5                              0,   42                       
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+Report for group R2O

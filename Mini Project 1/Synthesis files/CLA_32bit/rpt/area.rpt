@@ -1,0 +1,58 @@
+Report Instance Areas: 
+-----+---------------------------+----------------+-----+---------
+     |Instance                   |Module          |Cells|Cell Area
+-----+---------------------------+----------------+-----+---------
+1    |top                        |                |  223|      250
+2    |  cla_16bit_inst_0         |CLA_16bit__0_226|  108|      121
+3    |    lcu                    |LCU__0_225      |   12|       11
+4    |    genblk1_0_cla_4bit_inst|CLA_4bit__0_216 |   24|       28
+5    |      lcu                  |LCU__0_215      |   12|       11
+6    |      genblk1_0_fa_inst    |PFA__0_206      |    3|        4
+7    |      genblk1_1_fa_inst    |PFA__0_202      |    3|        4
+8    |      genblk1_2_fa_inst    |PFA__0_198      |    3|        4
+9    |      genblk1_3_fa_inst    |PFA__0_194      |    3|        4
+10   |    genblk1_1_cla_4bit_inst|CLA_4bit__0_190 |   24|       28
+11   |      lcu                  |LCU__0_189      |   12|       11
+12   |      genblk1_0_fa_inst    |PFA__0_180      |    3|        4
+13   |      genblk1_1_fa_inst    |PFA__0_176      |    3|        4
+14   |      genblk1_2_fa_inst    |PFA__0_172      |    3|        4
+15   |      genblk1_3_fa_inst    |PFA__0_168      |    3|        4
+16   |    genblk1_2_cla_4bit_inst|CLA_4bit__0_164 |   24|       28
+17   |      lcu                  |LCU__0_163      |   12|       11
+18   |      genblk1_0_fa_inst    |PFA__0_154      |    3|        4
+19   |      genblk1_1_fa_inst    |PFA__0_150      |    3|        4
+20   |      genblk1_2_fa_inst    |PFA__0_146      |    3|        4
+21   |      genblk1_3_fa_inst    |PFA__0_142      |    3|        4
+22   |    genblk1_3_cla_4bit_inst|CLA_4bit__0_138 |   24|       28
+23   |      lcu                  |LCU__0_137      |   12|       11
+24   |      genblk1_0_fa_inst    |PFA__0_128      |    3|        4
+25   |      genblk1_1_fa_inst    |PFA__0_124      |    3|        4
+26   |      genblk1_2_fa_inst    |PFA__0_120      |    3|        4
+27   |      genblk1_3_fa_inst    |PFA__0_116      |    3|        4
+28   |  cla_16bit_inst_1         |CLA_16bit       |  108|      121
+29   |    lcu                    |LCU             |   12|       11
+30   |    genblk1_0_cla_4bit_inst|CLA_4bit__0_60  |   24|       28
+31   |      lcu                  |LCU__0_59       |   12|       11
+32   |      genblk1_0_fa_inst    |PFA__0_50       |    3|        4
+33   |      genblk1_1_fa_inst    |PFA__0_46       |    3|        4
+34   |      genblk1_2_fa_inst    |PFA__0_42       |    3|        4
+35   |      genblk1_3_fa_inst    |PFA__0_38       |    3|        4
+36   |    genblk1_1_cla_4bit_inst|CLA_4bit__0_86  |   24|       28
+37   |      lcu                  |LCU__0_85       |   12|       11
+38   |      genblk1_0_fa_inst    |PFA__0_76       |    3|        4
+39   |      genblk1_1_fa_inst    |PFA__0_72       |    3|        4
+40   |      genblk1_2_fa_inst    |PFA__0_68       |    3|        4
+41   |      genblk1_3_fa_inst    |PFA__0_64       |    3|        4
+42   |    genblk1_2_cla_4bit_inst|CLA_4bit__0_112 |   24|       28
+43   |      lcu                  |LCU__0_111      |   12|       11
+44   |      genblk1_0_fa_inst    |PFA__0_102      |    3|        4
+45   |      genblk1_1_fa_inst    |PFA__0_98       |    3|        4
+46   |      genblk1_2_fa_inst    |PFA__0_94       |    3|        4
+47   |      genblk1_3_fa_inst    |PFA__0_90       |    3|        4
+48   |    genblk1_3_cla_4bit_inst|CLA_4bit        |   24|       28
+49   |      lcu                  |LCU__0_34       |   12|       11
+50   |      genblk1_0_fa_inst    |PFA__0_17       |    3|        4
+51   |      genblk1_1_fa_inst    |PFA__0_21       |    3|        4
+52   |      genblk1_2_fa_inst    |PFA__0_25       |    3|        4
+53   |      genblk1_3_fa_inst    |PFA             |    3|        4
+-----+---------------------------+----------------+-----+---------
