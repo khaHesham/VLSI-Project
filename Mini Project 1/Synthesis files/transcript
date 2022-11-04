@@ -1,0 +1,149 @@
+do dofile.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:36:24 on Nov 04,2022
+# vlog -reportprogress 300 CBPA.v CIA.v CLA.v CSA.v CarrySelectAdder.v Carry_Skip_adder.v FA.v MUX2x1.v adderPlus.v carrySaveAdder.v carry_ByPass_adder.v full_adder.v fulladder.v multiplexer2.v ripple_adder.v testbench.v 
+# -- Compiling module CBPA
+# -- Compiling module full_adder
+# -- Compiling module ripple_adder
+# -- Compiling module HA
+# -- Compiling module Increment
+# -- Compiling module CIA
+# -- Compiling module PFA
+# -- Compiling module LCU
+# -- Compiling module CLA_4bit
+# -- Compiling module CLA_16bit
+# -- Compiling module CLA_32bit
+# -- Compiling module CSA
+# -- Compiling module carry_select_adder
+# -- Compiling module Carry_Skip_4bits
+# -- Compiling module FA
+# -- Compiling module Mux_2x1
+# -- Compiling module adderPlus
+# ** Warning: carrySaveAdder.v(1): (vlog-2275) Existing module 'CSA' will be overwritten.
+# -- Compiling module CSA
+# -- Compiling module Carry_bypass_4bits
+# ** Warning: full_adder.v(1): (vlog-2275) Existing module 'full_adder' will be overwritten.
+# -- Compiling module full_adder
+# -- Compiling module fulladder
+# -- Compiling module multiplexer2
+# ** Warning: ** while parsing file included at ripple_adder.v(1)
+# ** at full_adder.v(1): (vlog-2275) Existing module 'full_adder' will be overwritten.
+# -- Compiling module full_adder
+# ** Warning: ripple_adder.v(3): (vlog-2275) Existing module 'ripple_adder' will be overwritten.
+# -- Compiling module ripple_adder
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	Mux_2x1
+# 	multiplexer2
+# 	testbench
+# End time: 22:36:24 on Nov 04,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 4
+# vsim testbench 
+# Start time: 22:36:24 on Nov 04,2022
+# Loading work.testbench
+# Loading work.carry_select_adder
+# Loading work.fulladder
+# Loading work.CSA
+# Loading work.ripple_adder
+# Loading work.adderPlus
+# Loading work.CLA_32bit
+# Loading work.CLA_16bit
+# Loading work.LCU
+# Loading work.CIA
+# Loading work.CBPA
+# Loading work.Carry_bypass_4bits
+# Loading work.FA
+# Loading work.full_adder
+# Loading work.CLA_4bit
+# Loading work.Increment
+# Loading work.PFA
+# Loading work.HA
+run -all
+# Overflow of positive numbers____________________________________________________________________________________________________________________
+# adder 000 success in1 = 1073741824 , in2= 1073741824 , sum -2147483648
+# adder 001 success in1 = 1073741824 , in2= 1073741824 , sum -2147483648
+# adder 010 success in1 = 1073741824 , in2= 1073741824 , sum -2147483648
+# adder 011 success in1 = 1073741824 , in2= 1073741824 , sum -2147483648
+# adder 100 success in1 = 1073741824 , in2= 1073741824 , sum -2147483648
+# adder 101 success in1 = 1073741824 , in2= 1073741824 , sum -2147483648
+# adder 110 success in1 = 1073741824 , in2= 1073741824 , sum -2147483648
+# adder 111 success in1 = 1073741824 , in2= 1073741824 , sum -2147483648
+# 
+# Overflow of negative numbers____________________________________________________________________________________________________________________
+# adder 000 success in1 = -2147483647 , in2= -2147483647 sum           2
+# adder 001 success in1 = -2147483647 , in2= -2147483647 sum           2
+# adder 010 success in1 = -2147483647 , in2= -2147483647 sum           2
+# adder 011 success in1 = -2147483647 , in2= -2147483647 sum           2
+# adder 100 success in1 = -2147483647 , in2= -2147483647 sum           2
+# adder 101 success in1 = -2147483647 , in2= -2147483647 sum           2
+# adder 110 success in1 = -2147483647 , in2= -2147483647 sum           2
+# adder 111 success in1 = -2147483647 , in2= -2147483647 sum           2
+# 
+# Addition of positive and negative number_________________________________________________________________________________________________________
+# adder 000 success in1 =           1 , in2= -2147483648 sum -2147483647
+# adder 001 success in1 =           1 , in2= -2147483648 sum -2147483647
+# adder 010 success in1 =           1 , in2= -2147483648 sum -2147483647
+# adder 011 success in1 =           1 , in2= -2147483648 sum -2147483647
+# adder 100 success in1 =           1 , in2= -2147483648 sum -2147483647
+# adder 101 success in1 =           1 , in2= -2147483648 sum -2147483647
+# adder 110 success in1 =           1 , in2= -2147483648 sum -2147483647
+# adder 111 success in1 =           1 , in2= -2147483648 sum -2147483647
+# 
+# Addition of positive and positive number_________________________________________________________________________________________________________
+# adder 000 success in1 =           1 , in2=           1 sum           2
+# adder 001 success in1 =           1 , in2=           1 sum           2
+# adder 010 success in1 =           1 , in2=           1 sum           2
+# adder 011 success in1 =           1 , in2=           1 sum           2
+# adder 100 success in1 =           1 , in2=           1 sum           2
+# adder 101 success in1 =           1 , in2=           1 sum           2
+# adder 110 success in1 =           1 , in2=           1 sum           2
+# adder 111 success in1 =           1 , in2=           1 sum           2
+# 
+# Addition of negative and negative number_________________________________________________________________________________________________________
+# adder 000 success in1 =         -22 , in2=         -22 sum         -44
+# adder 001 success in1 =         -22 , in2=         -22 sum         -44
+# adder 010 success in1 =         -22 , in2=         -22 sum         -44
+# adder 011 success in1 =         -22 , in2=         -22 sum         -44
+# adder 100 success in1 =         -22 , in2=         -22 sum         -44
+# adder 101 success in1 =         -22 , in2=         -22 sum         -44
+# adder 110 success in1 =         -22 , in2=         -22 sum         -44
+# adder 111 success in1 =         -22 , in2=         -22 sum         -44
+# 
+# Additional #1 random testcase____________________________________________________________________________________________________________________
+# adder 000 success in1 =           2 , in2=           2 sum           4
+# adder 001 success in1 =           2 , in2=           2 sum           4
+# adder 010 success in1 =           2 , in2=           2 sum           4
+# adder 011 success in1 =           2 , in2=           2 sum           4
+# adder 100 success in1 =           2 , in2=           2 sum           4
+# adder 101 success in1 =           2 , in2=           2 sum           4
+# adder 110 success in1 =           2 , in2=           2 sum           4
+# adder 111 success in1 =           2 , in2=           2 sum           4
+# 
+# Additional #2 random testcase____________________________________________________________________________________________________________________
+# adder 000 success in1 =          22 , in2=          22 sum          44
+# adder 001 success in1 =          22 , in2=          22 sum          44
+# adder 010 success in1 =          22 , in2=          22 sum          44
+# adder 011 success in1 =          22 , in2=          22 sum          44
+# adder 100 success in1 =          22 , in2=          22 sum          44
+# adder 101 success in1 =          22 , in2=          22 sum          44
+# adder 110 success in1 =          22 , in2=          22 sum          44
+# adder 111 success in1 =          22 , in2=          22 sum          44
+# 
+# Additional #3 random testcase____________________________________________________________________________________________________________________
+# adder 000 success in1 =         222 , in2=         222 sum         444
+# adder 001 success in1 =         222 , in2=         222 sum         444
+# adder 010 success in1 =         222 , in2=         222 sum         444
+# adder 011 success in1 =         222 , in2=         222 sum         444
+# adder 100 success in1 =         222 , in2=         222 sum         444
+# adder 101 success in1 =         222 , in2=         222 sum         444
+# adder 110 success in1 =         222 , in2=         222 sum         444
+# adder 111 success in1 =         222 , in2=         222 sum         444
+# 
+# __________________________________________________________________________________________________________________________________________________
+# the total number of success          64
+# the total number of failure           0
+# Break key hit
+quit -sim
+# End time: 22:40:16 on Nov 04,2022, Elapsed time: 0:03:52
+# Errors: 0, Warnings: 1
