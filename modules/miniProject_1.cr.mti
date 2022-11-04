@@ -1,0 +1,115 @@
+{D:/modelsim/mini Project/ripple_adder.v} {1 {vlog -work work -stats=none {D:/modelsim/mini Project/ripple_adder.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module full_adder
+-- Compiling module ripple_adder
+
+Top level modules:
+	ripple_adder
+
+} {} {}} {D:/modelsim/mini Project/fulladder.v} {1 {vlog -work work -stats=none {D:/modelsim/mini Project/fulladder.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module fulladder
+
+Top level modules:
+	fulladder
+
+} {} {}} {D:/modelsim/mini Project/adderPlus.v} {1 {vlog -work work -stats=none {D:/modelsim/mini Project/adderPlus.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module adderPlus
+
+Top level modules:
+	adderPlus
+
+} {} {}} {D:/modelsim/mini Project/CIA.v} {1 {vlog -work work -stats=none {D:/modelsim/mini Project/CIA.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module full_adder
+-- Compiling module ripple_adder
+-- Compiling module HA
+-- Compiling module Increment
+-- Compiling module CIA
+
+Top level modules:
+	CIA
+
+} {} {}} {D:/modelsim/mini Project/MUX2x1.v} {1 {vlog -work work -stats=none {D:/modelsim/mini Project/MUX2x1.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Mux_2x1
+
+Top level modules:
+	Mux_2x1
+
+} {} {}} {D:/modelsim/mini Project/multiplexer2.v} {1 {vlog -work work -stats=none {D:/modelsim/mini Project/multiplexer2.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module multiplexer2
+
+Top level modules:
+	multiplexer2
+
+} {} {}} {D:/modelsim/mini Project/CBPA.v} {1 {vlog -work work -stats=none {D:/modelsim/mini Project/CBPA.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module CBPA
+
+Top level modules:
+	CBPA
+
+} {} {}} {D:/modelsim/mini Project/full_adder.v} {1 {vlog -work work -stats=none {D:/modelsim/mini Project/full_adder.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module full_adder
+
+Top level modules:
+	full_adder
+
+} {} {}} {D:/modelsim/mini Project/Carry_Skip_adder.v} {1 {vlog -work work -stats=none {D:/modelsim/mini Project/Carry_Skip_adder.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Carry_Skip_4bits
+
+Top level modules:
+	Carry_Skip_4bits
+
+} {} {}} {D:/modelsim/mini Project/CSA.v} {1 {vlog -work work -stats=none {D:/modelsim/mini Project/CSA.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module CSA
+
+Top level modules:
+	CSA
+
+} {} {}} {D:/modelsim/mini Project/FA.v} {1 {vlog -work work -stats=none {D:/modelsim/mini Project/FA.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module FA
+
+Top level modules:
+	FA
+
+} {} {}} {D:/modelsim/mini Project/carrySaveAdder.v} {1 {vlog -work work -stats=none {D:/modelsim/mini Project/carrySaveAdder.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module CSA
+
+Top level modules:
+	CSA
+
+} {} {}} {D:/modelsim/mini Project/CLA.v} {1 {vlog -work work -stats=none {D:/modelsim/mini Project/CLA.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module FA
+-- Compiling module LCU
+-- Compiling module CLA_4bit
+-- Compiling module CLA_16bit
+-- Compiling module CLA_32bit
+
+Top level modules:
+	CLA_32bit
+
+} {} {}} {D:/modelsim/mini Project/carry_ByPass_adder.v} {1 {vlog -work work -stats=none {D:/modelsim/mini Project/carry_ByPass_adder.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Carry_bypass_4bits
+
+Top level modules:
+	Carry_bypass_4bits
+
+} {} {}} {D:/modelsim/mini Project/CarrySelectAdder.v} {1 {vlog -work work -stats=none {D:/modelsim/mini Project/CarrySelectAdder.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module carry_select_adder
+
+Top level modules:
+	carry_select_adder
+
+} {} {}}
